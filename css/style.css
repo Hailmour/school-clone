@@ -116,7 +116,6 @@ h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	font-weight: 500;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #151515;
-	text-transform: capitalize;
 	letter-spacing: .024em;
 	word-spacing: .05em;
 }
@@ -668,7 +667,7 @@ a[href*='tel'], a[href*='mailto'] {
 	height: 100%;
 	left: 50%;
 	right: 50%;
-	background: #a3b8ff;
+	background: var(--accent-blue);
 	transition: all .3s ease;
 }
 
@@ -9890,7 +9889,7 @@ h2.title-modern > span {
 
 .team-classic-figure img {
 	width: 100%;
-	filter: grayscale(100%);
+	filter: grayscale(75%);
 	transition: all .3s ease;
 }
 
@@ -9929,7 +9928,7 @@ h2.title-modern > span {
 }
 
 .team-classic-name a:hover {
-	color: #a3b8ff;
+	color: var(--accent);
 }
 
 .team-classic-status {
@@ -11437,7 +11436,7 @@ html [class*='section-'].section-top-0 {
 }
 
 .context-dark .footer-social-list-2 a:hover, .bg-gray-dark .footer-social-list-2 a:hover, .bg-primary .footer-social-list-2 a:hover {
-	color: #a3b8ff;
+	color: var(--accent-blue);
 }
 
 .footer-minimal.context-dark .footer-minimal-bottom-panel, .footer-minimal.bg-gray-dark .footer-minimal-bottom-panel, .footer-minimal.bg-primary .footer-minimal-bottom-panel,
