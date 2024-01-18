@@ -6224,13 +6224,13 @@ textarea.textarea-lg {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	background-image: url(../images/quote-jean.png);
+	/* background-image: url(../images/quote-jean.png); */
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 }
 
 * + .quote-jean {
-	margin-top: 16px;
+	margin-top: 0px;
 }
 
 .quote-jean + .isotope-filters {
