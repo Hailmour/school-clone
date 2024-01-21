@@ -4813,6 +4813,7 @@ textarea.textarea-lg {
 }
 
 .post-modern-figure img {
+	background-size: cover;
 	width: 100%;
 	transition: all .3s ease;
 }
